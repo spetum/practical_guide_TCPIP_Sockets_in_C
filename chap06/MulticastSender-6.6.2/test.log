@@ -1,0 +1,9 @@
+pi@RBPi3Nr0001:~/network_programming_in_c/chap06/MulticastSender $ ./MulticastSender
+Parameter(s): <Multicast Address> <Port> <Send String> [<TTL>]
+pi@RBPi3Nr0001:~/network_programming_in_c/chap06/MulticastSender $ ./MulticastSender 
+224.0.0.1 7200 "Hello, MulticastReceiver!" 3
+
+
+<...Waiting continuously...>
+^C
+pi@RBPi3Nr0001:~/network_programming_in_c/chap06/MulticastSender $

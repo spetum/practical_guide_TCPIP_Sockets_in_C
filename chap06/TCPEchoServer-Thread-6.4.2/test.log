@@ -1,0 +1,19 @@
+pi@RBPi3Nr0001:~/practical_c/chap06/TCPEchoServer-Thread $ ./TCPEchoServer-Thread
+Parameter(s): <Server Port/Service>
+pi@RBPi3Nr0001:~/practical_c/chap06/TCPEchoServer-Thread $ ./TCPEchoServer-Thread 6800
+Binding to 0.0.0.0-6800
+Handling client 192.168.1.128-39388
+with thread 1994036320
+Handling client 192.168.1.128-39390
+with thread 1994036320
+Handling client 192.168.1.128-39392
+with thread 1994036320
+Handling client 192.168.1.128-39394
+with thread 1994036320
+Handling client 192.168.1.128-39396
+with thread 1994036320
+Handling client 192.168.1.128-39398
+with thread 1994036320
+Handling client 192.168.1.128-39400
+with thread 1994036320
+^C

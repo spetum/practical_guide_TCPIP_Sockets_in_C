@@ -1,0 +1,5 @@
+run ./sigAction and then press Control-C(invoke SIGINT)
+Caught the interrupt, SIGINT
+print message
+pi@RBPi3Nr0001:~/practical_c/chap06/SigAction $ ./sigAction
+^CInterrupt Received.  Exiting program.

@@ -1,0 +1,9 @@
+pi@RBPi3Nr0001:~/practical_c/chap05/VoteServer $ ./vs-bin
+Parameter(s): <Server Port/Service>
+pi@RBPi3Nr0001:~/practical_c/chap05/VoteServer $ ./vs-bin 6300
+Binding to 0.0.0.0-6300
+Handling client 192.168.1.128-48292
+Received message (4 bytes)
+Processed vote for candidate 755; current count is 1.
+Client finished
+^C

@@ -1,0 +1,16 @@
+pi@RBPi3Nr0001:~/practical_c/chap05/VoteServer-Text $ ./vs-text
+Parameter(s): <Server Port/Service>
+pi@RBPi3Nr0001:~/practical_c/chap05/VoteServer-Text $ ./vs-text 6300
+Binding to 0.0.0.0-6300
+Handling client 192.168.1.128-48306
+Received message (13 bytes)
+Processed inquiry for candidate 755; current count is 0.
+Client finished
+Handling client 192.168.1.128-48308
+Received message (13 bytes)
+Processed vote for candidate 755; current count is 1.
+Client finished
+Handling client 192.168.1.128-48310
+Received message (13 bytes)
+Processed inquiry for candidate 755; current count is 1.
+Client finished

@@ -1,0 +1,5 @@
+pi@RBPi3Nr0001:~/network_programming_in_c/chap06/MulticastReceiver $ ./MulticastReceiver 7200
+Parameter(s): <Multicast Address> <Port>
+pi@RBPi3Nr0001:~/network_programming_in_c/chap06/MulticastReceiver $ ./MulticastReceiver 224.0.0.1 7200
+Joining IPv4 multicast group...
+Received: Hello, MulticastReceiver!

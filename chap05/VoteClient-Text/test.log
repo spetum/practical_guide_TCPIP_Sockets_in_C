@@ -1,0 +1,15 @@
+pi@RBPi3Nr0001:~/practical_c/chap05/VoteClient-Text $ ./vc-text 192.168.1.128 6300 755 I
+Sending 13-byte inquiry for candidate 755...
+Received:
+  Response to inquiry for candidate 755
+  count = 0
+pi@RBPi3Nr0001:~/practical_c/chap05/VoteClient-Text $ ./vc-text 192.168.1.128 6300 755
+Sending 13-byte vote for candidate 755...
+Received:
+  Response to vote for candidate 755
+  count = 1
+pi@RBPi3Nr0001:~/practical_c/chap05/VoteClient-Text $ ./vc-text 192.168.1.128 6300 755 I
+Sending 13-byte inquiry for candidate 755...
+Received:
+  Response to inquiry for candidate 755
+  count = 1

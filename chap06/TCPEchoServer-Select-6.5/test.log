@@ -1,0 +1,59 @@
+<Server Side>
+pi@RBPi3Nr0001:~/practical_c/chap06/TCPEchoServer-Select-6.5 $ ./TCPEchoServer-Select
+Parameter(s): <Timeout (secs.)> <Port/Service1> ...
+
+pi@RBPi3Nr0001:~/practical_c/chap06/TCPEchoServer-Select-6.5 $ ./TCPEchoServer-Select 4 6900 6901 6902 6903 6904
+Binding to 0.0.0.0-6900
+Binding to 0.0.0.0-6901
+Binding to 0.0.0.0-6902
+Binding to 0.0.0.0-6903
+Binding to 0.0.0.0-6904
+Starting server:  Hit return to shutdown
+No echo requests for 4 secs...Server still alive
+No echo requests for 4 secs...Server still alive
+Request on port 0:  Handling client 192.168.1.128-40430
+Request on port 0:  Handling client 192.168.1.128-40432
+Request on port 1:  Handling client 192.168.1.128-37828
+No echo requests for 4 secs...Server still alive
+Request on port 2:  Handling client 192.168.1.128-44582
+Request on port 3:  Handling client 192.168.1.128-53686
+Request on port 4:  Handling client 192.168.1.128-60236
+No echo requests for 4 secs...Server still alive
+No echo requests for 4 secs...Server still alive
+Request on port 0:  Handling client 192.168.1.128-40444
+No echo requests for 4 secs...Server still alive
+
+Shutting down server
+
+<Client Side>
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6800
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6800
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6800
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6800
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6800
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6800
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6800
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6900
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6900
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6901
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6902
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6903
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6904
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6905
+connect() failed: Connection refused
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $ ./aa 192.168.1.128 "Hello,234567" 6900
+Received: Hello,234567
+pi@RBPi3Nr0001:~/practical_c/chap02/TCPEchoClient4 $

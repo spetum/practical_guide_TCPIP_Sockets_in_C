@@ -1,0 +1,13 @@
+pi@RBPi3Nr0001:~/practical_c/chap06/TCPEchoServer-fork $ ./TCPEchoServer-Fork
+Parameter(s): <Server Port/Service>
+pi@RBPi3Nr0001:~/practical_c/chap06/TCPEchoServer-fork $ ./TCPEchoServer-Fork 6600
+Binding to 0.0.0.0-6600
+Handling client 192.168.1.128-51956
+with child process: 15177
+Handling client 192.168.1.128-51958
+with child process: 15179
+Handling client 192.168.1.128-51960
+with child process: 15181
+Handling client 192.168.1.128-51962
+with child process: 15183
+^C
